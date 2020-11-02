@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="en dir-ltr  js "><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="LimeSurvey http://www.limesurvey.org">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.date = new Date().toISOString().slice(0, 19).replace("-","/").replace("-","/").replace("T"," ");   
+
+
+
+
+ 
+});
+</script> 
+
+    <link rel="stylesheet" type="text/css" href="/tmp/assets/e1a7d247/noto.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/8398677/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/a4d8c56a/survey.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/db41ec54/template-core.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/db41ec54/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/20d04bb7/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/20d04bb7/yiistrap.min.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/7dcc8c9e/css/ajaxify.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/7dcc8c9e/css/base.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/4f48be76/css/theme.css">
+<link rel="stylesheet" type="text/css" href="/tmp/assets/4f48be76/css/custom.css">
+<script type="text/javascript">window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="/tmp/assets/8313685d/jquery-3.1.1.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/8313685d/jquery-migrate-3.0.0.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/42f91c91/build/lslog.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/2a93a58e/pjax.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/a7a8ded4/moment-with-locales.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/a4d8c56a/survey.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/db41ec54/template-core.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/20d04bb7/bootstrap.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/20d04bb7/plugins/bootstrapconfirm/bootstrapconfirm.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/7dcc8c9e/scripts/theme.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/7dcc8c9e/scripts/ajaxify.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/7dcc8c9e/scripts/custom.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/b330b2fc/survey_runtime.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/b330b2fc/nojs.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/c14052be/em_javascript.js" class="headScriptTag"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+LSvar={"bFixNumAuto":1,"bNumRealValue":0,"sLEMradix":".","lang":{"confirm":{"confirm_cancel":"Cancel","confirm_ok":"OK"}},"showpopup":1,"startPopups":{},"debugMode":0};
+/*]]>*/
+function doer() {
+	return 'heloo';
+}
+</script>
+<title>
+        CSIR COVID-19 Sreening App for Tenants
+    </title>
+
+    <link rel="shortcut icon" href="/upload/themes/survey/COVID_ext/files/favicon.ico">
+    <script type="text/javascript">
+        if(window.basicThemeScripts === undefined){ 
+            window.basicThemeScripts = new ThemeScripts(); 
+        } 
+    </script>
+                <script type="text/javascript">
+            var ajaxHandler = new AjaxSubmitObject();
+            $(document).on('ready', function () {
+                ajaxHandler.bindActions();
+            });
+        </script>
+    
+    
+    <style>
+        body .top-container {
+            margin-top: 70px;
+        }
+    </style>
+
+
+    
+</head>
+
+        <body style="padding-top: 90px;" class=" COVID_ext extends_vanilla vanilla font-noto lang-en  brand-logo">
+                                            <script>
+    $.ajaxSetup({
+        beforeSend:function(){
+            // show gif here, eg:
+            $("#ajax-loading").show();
+        },
+        complete:function(){
+            // hide gif here, eg:
+            $("#ajax-loading").hide();
+        }
+    });
+</script>
+<div id="ajax-loading" hidden=""></div>
+                        
+        
+                            <div id="beginScripts" class="script-container">
+                <script type="text/javascript" src="/tmp/assets/b4f466b2/decimal.js"></script>
+<script type="text/javascript" src="/tmp/assets/6d40c826/decimalcustom.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+setJsVar();
+var LEMmode='group';
+var LEMgseq='';
+var 
+ExprMgr_process_relevance_and_tailoring = function(evt_type,sgqa,type){
+if (typeof LEM_initialized == 'undefined') {
+LEM_initialized=true;
+LEMsetTabIndexes();
+}
+if (evt_type == 'onchange' && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa) && (typeof last_evt_type !== 'undefined' && last_evt_type == 'TAB' && type != 'checkbox')) {
+  last_evt_type='onchange';
+  last_sgqa=sgqa;
+  return;
+}
+last_evt_type = evt_type;
+last_sgqa=sgqa;
+
+}
+
+/*]]>*/
+</script>
+
+            </div>
+               
+
+                <article>
+
+            <div id="dynamicReloadContainer">
+            
+                                                    
+<!-- Bootstrap Navigation Bar -->
+<div>  
+
+                            <div style="background-color:#f6f6f6; border-bottom:2px solid #e6e6e6; top:0px; position:absolute; width:100%"class="logo-container hidden-xs">
+                <img style="width:8%; margin:12px;" src="https://screen.csir.co.za/tmp/assets/4b98ba93/csir_logo1.png" alt="CSIR COVID-19 Sreening App for Tenants">
+            </div>
+    
+</div>
+
+                
+                                                    
+
+                
+                <!-- Outer Frame Container -->
+                                                                            <!-- outer frame container -->
+<div class=" outerframe    container  " id="outerframeContainer">
+        
+<!-- Main Row -->
+<div id="main-row">
+    <!-- Main Col -->
+    <div class="  col-centered  space-col" id="main-col">
+
+        
+                        
+
+
+
+
+                                        
+<!-- main form -->
+
+
+
+<!-- Start of the main Form-->
+<form id="limesurvey" name="limesurvey" autocomplete="off" class="survey-form-container form" action="/index.php/20620" method="post">
+<input type="hidden" value="MjhOX2tpSkNOdnFmanhXWTFlNkdNSG9JZ3dTNnU1UTRbPOWGs8f0Yoru9YeWi72Re7Bgcxtz2Y8TDpYOPTtV9g==" name="YII_CSRF_TOKEN">
+
+<!-- Ajax value -->
+<!-- Needs to be set by javascript! Because if JavaScript is disabled, ajaxmode will completely fail! -->
+
+
+
+<!-- Field Names -->
+<input type="hidden" name="fieldnames" value="" id="fieldnames">
+
+
+
+<!-- Submit button -->
+<button type="submit" id="defaultbtn" value="default" name="move" class="submit hidden" style="display:none">default</button>
+
+        
+    <div style="margin: 3% 20%" ng-app="myApp" ng-controller="myCtrl">
+        <div style="font-family: Arial"; font-size:16px;>
+                            <p><span style="font-size:16px;">This is a confirmation message that <span id="LEMtailor_Q_0_2">Stefan</span> <span id="LEMtailor_Q_0_3">Verwey</span> with ID number <span>6905215008081</span>, completed the CSIR Covid-19 Screening survey on <span>{{date}}</span> and is <span id="LEMtailor_Q_0_6"><span style="color:#ffffff;"><span style="background-color:#2ecc71;">ALLOWED</span></span></span> to be on the CSIR premises.</span></p>
+
+<p><span style="font-size:16px;">A confirmation email has been sent to the this email <span id="LEMtailor_Q_0_7">stefan.verwey@axnosis.com</span>, if you are allowed to be on the CSIR premises kindly issue that email to the security at the gate. Alternatively please show a screen shot of this result at the gate, together with your staff ID card, to gain access to the site.</span></p>
+
+<p><span style="font-size:36px;">THANK YOU!</span></p>
+
+            
+                        
+                        
+                        
+                        
+
+
+                                </div>
+    </div>
+<input type="hidden" name="ajax" value="on" id="ajax"></form> <!-- main form -->
+
+            
+
+    </div> <!-- main col -->
+</div> <!-- main row -->
+</div>
+                
+                                
+
+
+
+<!-- Bootstrap Modal Alert -->
+<div id="bootstrap-alert-box-modal" class=" modal fade ">
+    <div class=" modal-dialog ">
+        <div class=" modal-content ">
+            <div class=" modal-header " style="min-height:40px;">
+      
+          
+        </div>
+    </div>
+</div>
+
+
+                                
+
+                        </div>
+
+        </article>
+                    
+                            <div id="bottomScripts" class="script-container">
+                <script type="text/javascript">
+/*<![CDATA[*/
+
+                if(window.basicThemeScripts === undefined){ 
+                    window.basicThemeScripts = new ThemeScripts(); 
+                } 
+                basicThemeScripts.initGlobal(); 
+                
+
+            try{ 
+                triggerEmClassChange(); 
+            } catch(e) {
+                console.ls.warn('triggerEmClassChange could not be run. Is survey.js correctly loaded?');
+            }
+
+triggerEmRelevance();
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+activateActionLink();
+activateConfirmButton();
+basicThemeScripts.initTopMenuLanguageChanger('.ls-language-link ', 'form#limesurvey'); 
+
+    $('#limesurvey').append('<input type="hidden" name="ajax" value="on" id="ajax" />');
+    
+updateMandatoryErrorClass();
+});
+/*]]>*/
+</script>
+
+            </div>
+           
+
+                    <script>
+                window.basicThemeScripts.init();
+            </script>
+                
+    
+
+</body></html>
